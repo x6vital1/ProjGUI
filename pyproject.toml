@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "gui"
+version = "0.1.0"
+description = ""
+authors = ["ZiG <x6vital@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.14"
+pyside6 = "^6.8.1"
+pyinstaller = "^6.11.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
